@@ -22,7 +22,7 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐌𝐄𝐍𝐈𝐊𝐌𝐀𝐓𝐈
+salam azoul hi salut
 
 `.trimStart(), 
   header: '╭────「 %category 」────࿋',
