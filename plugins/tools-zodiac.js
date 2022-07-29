@@ -22,7 +22,7 @@ donc votre age est : ${cekusia}
     m.reply(teks)
 }
 handler.help = ['zodiac *حساب تاريخ الازذياد*']
-handler.tags = ['tools', 'internet', 'fun']
+handler.tags = ['tools']
 
 handler.command = /^zodia[kc]$/i
 
