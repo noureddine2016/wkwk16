@@ -15,7 +15,7 @@ ${text}
 ➸ *height*: ${height}
 `.trim(), wm, 'NEXT', `.gimage ${text}`, m)
 }
-handler.help = ['image <query>', 'gimage <query>', 'googleimage <query>']
+handler.help = ['image <query>']
 handler.tags = ['tools']
 handler.command = /^(gimage|googleimage|image)$/i
 
