@@ -52,7 +52,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     if (stiker) await conn.sendFile(m.chat, stiker, '', '', m, 0, { asSticker: true })
 
-    else throw `Balas stiker dengan perintah *${usedPrefix + command} <teks>|<teks>*`
+    else throw `هذا الامر لوضع حقوق للملصق 
+    قم بالاشارة للملصق ثم اكتب *${usedPrefix + command}  اسمك| لقبك*`
 
   }
 
