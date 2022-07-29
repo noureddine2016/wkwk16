@@ -22,14 +22,14 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-مرحبا 
+﷽ 
 انا أدعـــى بوبيز 
 تابعني صاحب البوت في الانستغرام و سأرسل لك دجاجة مشوية (بوبيز حامض)
 instagram.com/noureddine_ouafy
 
 `.trimStart(), 
   header: '╭────「 %category 」────࿋',
-  body: '⌛ %cmd %islimit %isPremium',
+  body: '😄 %cmd %islimit %isPremium',
   footer: '╰─────────────࿋\n', 
   after: ``,
 }
@@ -41,17 +41,17 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-  'main': 'MENU UTAMA',
-  'sticker': 'MENU CONVERT',
-  'downloader': 'MENU DOWNLOADER',
-  'xp': 'MENU EXP',
-  'group': 'MENU GROUP',
+  'main': ' UTAMA',
+  'sticker': ' CONVERT',
+  'downloader': ' DOWNLOADER',
+  'xp': ' EXP',
+  'group': ' GROUP',
   'internet': 'INTERNET',
-  'islam' : 'MENU ISLAMI',
-  'owner': 'MENU OWNER',
+  'islam' : ' ISLAMI',
+  'owner': ' OWNER',
   'shortlink': 'SHORT LINK',
-  'tools': 'MENU TOOLS',
-  'asupan': 'ASUPAN MENU',
+  'tools': ' TOOLS',
+  'asupan': 'ASUPAN ',
   }
   if (teks == 'absen') tags = {
     'absen': 'MENU ABSEN',
