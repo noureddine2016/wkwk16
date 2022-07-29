@@ -24,13 +24,9 @@ const defaultMenu = {
   before:`
  
 انستغرامي
-
 https://tinyurl.com/25w7l9b9
-
 قناتي
-
 https://tinyurl.com/y73nwuh6
-
 صفحتي
 
 https://tinyurl.com/27hhdthq
