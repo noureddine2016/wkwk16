@@ -12,11 +12,11 @@ let handler = async (m, { conn }) => {
     let username = conn.getName(who)
     let str = `
 
-✧───────[ *حسابك الشخصي* ]───────✧
-📇 • *اسمك:* ${username} ${registered ? '(' + name + ') ': ''}
-📧 • *Tag:* @${who.replace(/@.+/, '')}
-📞 • *رفمك:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-💻 • *رابطك:* https://wa.me/${who.split`@`[0]}
+✧── *حسابك الشخصي* ──✧
+📇 • *اسمك :* ${username} ${registered ? '(' + name + ') ': ''}
+📧 • *طاغ  :* @${who.replace(/@.+/, '')}
+📞 • *رفمك  :* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+💻 • *رابطك :* https://wa.me/${who.split`@`[0]}
 ${registered ? '🎨 • *Age:* ' + age : ''}
 
 `.trim()
