@@ -62,8 +62,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'Pengubah Suara': 'PENGUBAH SUARA',
   'premium': 'PREMIUM MENU',
   'quotes' : 'MENU QUOTES',
-  'rpg': 'MENU RPG',
-  'stalk': 'MENU STALK',
   'shortlink': 'SHORT LINK',
   'tools': 'MENU TOOLS',
   'vote': 'MENU VOTING',
