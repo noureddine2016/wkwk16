@@ -256,8 +256,7 @@ if (teks == '404') {
 let menuu = `
 
  
-❀ Welcome To ʙᴏʙɪᴢ ʙᴏᴛ 
-
+★彡[ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ]彡★
 *ʏᴏᴜᴛᴜʙᴇ* :
 https://tinyurl.com/y73nwuh6
 *ɪɴꜱᴛᴀɢʀᴀᴍ* :
