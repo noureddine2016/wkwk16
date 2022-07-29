@@ -18,7 +18,7 @@ let handler = async (m, { conn, command, args }) => {
   }
 }
 handler.help = ['google', 'googlef'].map(v => v + ' <pencarian>')
-handler.tags = ['internet']
+handler.tags = ['tools']
 handler.command = /^googlef?$/i
 handler.fail = null
 
