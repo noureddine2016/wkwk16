@@ -302,10 +302,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "𝚂𝚎𝚖𝚞𝚊 𝚖𝚎𝚗𝚞",
                   "rowId": '.? all'
                   }, {
-                  "title": "⌠ 🚦 ⌡ ᴀʙsᴇɴ & ᴠᴏᴛɪɴɢ",
-                  "description": "𝙰𝚋𝚜𝚎𝚗 𝚍𝚊𝚗 𝚅𝚘𝚝𝚒𝚗𝚐 𝙼𝚎𝚗𝚞",
-                  "rowId": `${_p}? absen`
-                }, {
                   "title": "⌠ 🇯🇵 ⌡ ᴀɴɪᴍᴇ ᴍᴇɴᴜ",
                   "description": "𝚆𝚒𝚋𝚞 𝚑𝚊𝚕𝚞 𝚖𝚎𝚗𝚞",
                   "rowId": `${_p}? anime`
