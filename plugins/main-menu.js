@@ -257,6 +257,7 @@ let menuu = `
 
  
 ★彡[ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ]彡★
+
 *ʏᴏᴜᴛᴜʙᴇ* :
 https://tinyurl.com/y73nwuh6
 *ɪɴꜱᴛᴀɢʀᴀᴍ* :
@@ -410,15 +411,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                displayText: '𝐎𝐖𝐍𝐄𝐑',
                id: '.owner',
              }
-
-           },
-               {
-             quickReplyButton: {
-               displayText: 'إشتري لي قهوة 😅  Donate Me',
-               id: '.donasi',
-             }
-
-           },
            {
              quickReplyButton: {
                displayText: '𝐂𝐑𝐄𝐃𝐈𝐓',
