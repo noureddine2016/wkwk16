@@ -4,7 +4,7 @@ global.mods = []
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'noureddine ouafy⁩⁩'
+global.nameowner = 'ıllıllı⭐🌟 n͙o͙u͙r͙e͙d͙d͙i͙n͙e͙ o͙u͙a͙f͙y͙ 🌟⭐ıllıllı⁩⁩'
 global.numberowner = '212774592783'
 global.instagram = 'https://www.instagram.com/noureddine_ouafy'
 global.github = 'https://github.com/gmpyyy'
@@ -13,9 +13,9 @@ global.pulsa = '087898307350'
 global.gopay = '-'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'bobiz bot'
-global.gc = 'https://chat.whatsapp.com/ElBB5NrJS637TYqjJLHuk2'
-global.web = 'https://www.youtube.com/channel/UCZoVmApPxtLYgUWwBD4nbCw' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.namebot = '★彡[ʙᴏʙɪᴢ ʙᴏᴛ]彡★'
+global.gc = 'https://www.facebook.com/people/Noureddine-Ouafy-Tech/100063533185520/'
+global.web = 'https://www.youtube.com/channel/UCwjE8G795TdOgWsbjJJsC4g' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
@@ -23,9 +23,9 @@ global.fotonya1 = 'https://i.postimg.cc/MZjW7hb6/20220707-200605.jpg' //ganti ja
 global.fotonya2 = 'https://i.postimg.cc/MZjW7hb6/20220707-200605.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'bobiz bot'
+global.wm = '★彡[ʙᴏʙɪᴢ ʙᴏᴛ]彡★'
 global.watermark = wm
-global.wm2 = '                     「bobizbot」'
+global.wm2 = '                     ★彡[ʙᴏʙɪᴢ ʙᴏᴛ]彡★'
 global.wm3 = 'noureddine ouafy⛧'
 global.htki = '––––––『' 
 global.htka = '』––––––'
