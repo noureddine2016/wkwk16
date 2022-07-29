@@ -48,16 +48,16 @@ module.exports = handler
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   if (time >= 5) {
-    res = "Selamat pagi🌄"
+    res = "HI"
   }
   if (time > 9) {
-    res = "Selamat siang🏞️"
+    res = "HI"
   }
   if (time >= 15) {
-    res = "Selamat sore🌇"
+    res = "HI"
   }
   if (time >= 19) {
-    res = "Selamat malam🌃"
+    res = "HI"
   }
   return res
 }
