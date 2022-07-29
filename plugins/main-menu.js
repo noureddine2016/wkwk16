@@ -270,11 +270,10 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `┏━━━ ﹝bobiz bot﹞ ━━⚀︎
-┠ 💻smia ➨ ${global.nameowner}
-┠👤moulah ➨ 𝘎𝘦𝘮𝘱𝘺
-┠🤖𝘉otname ➨ ${global.namebot}
-┠🔱𝘔𝘰𝘥𝘦 ➨ ${global.opts['self'] ? 'Self' : 'publik'}
-┠ ⏲️𝘙𝘶𝘯𝘵𝘪𝘮𝘦 ➨ ${uptime}
+┠ صــاحب البوت ➨ ${global.nameowner}
+┠ إسم الــبوت  ➨ ${global.namebot}
+┠ وضع البوت  ➨ ${global.opts['self'] ? 'Self' : 'publik'}
+┠ البوت شغال منذ : ➨ ${uptime}
 ┗━━━━━━━━━━━━━━━━⚀︎`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
