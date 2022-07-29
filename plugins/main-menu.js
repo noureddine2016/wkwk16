@@ -269,11 +269,12 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `┏━━━ ﹝bobiz bot﹞ ━━⚀︎
-┠ صــاحب البوت ➨ ${global.nameowner}
-┠ إسم الــبوت  ➨ ${global.namebot}
-┠ وضع البوت  ➨ ${global.opts['self'] ? 'Self' : 'publik'}
-┠ البوت شغال منذ : ➨ ${uptime}
+let menuu = `
+┏━━━ ﹝bobiz bot﹞ ━━⚀︎
+┠ صــاحب البوت ❀ ${global.nameowner}
+┠ إسم الــبوت  ❀ ${global.namebot}
+┠ وضع البوت  ❀ ${global.opts['self'] ? 'Self' : 'publik'}
+┠ البوت شغال منذ ❀ ${uptime}
 ┗━━━━━━━━━━━━━━━━⚀︎`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
