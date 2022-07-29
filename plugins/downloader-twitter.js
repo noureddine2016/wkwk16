@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 let handler = async (m, { usedPrefix, command, conn, args }) => {
-  if (!args[0]) throw `Gunakan format: ${usedPrefix}${command} https://twitter.com/gofoodindonesia/status/1229369819511709697`
+  if (!args[0]) throw `اكتب هذا الامر متبوع ب رابط من تويتر: ${usedPrefix}${command} https://twitter.com/gofoodindonesia/status/1229369819511709697`
   let res = await twitter(args[0])
   let result = res.result.reverse().filter(({ mime }) => /video/i.test(mime)), video, index
   for (let vid of result) {
@@ -16,11 +16,11 @@ let handler = async (m, { usedPrefix, command, conn, args }) => {
   if (!video) throw 'Can\'t get video/image'
   let ress = result[index]
   conn.sendFile(m.chat, video, 'twitter' + /video/.test(ress.mime) ? '.mp4' : '.png', `
-*Name:* ${res.name}
-*Mime:* ${ress.mime}
+*name of video:* ${res.name}
+*formate:* ${ress.mime}
 `.trim(), m)
 }
-handler.help = ['twitter'].map(v => v + ' <url>')
+handler.help = ['twitter'].map(v => v + 'رابط من تويتر')
 handler.tags = ['downloader']
 
 handler.command = /^twitter$/i
