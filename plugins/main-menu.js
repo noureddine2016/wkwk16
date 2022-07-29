@@ -283,32 +283,20 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               }, {
                 "rows": [{
                   "title": `⌠ 💬 ⌡ ᴀʟʟ ᴍᴇɴᴜ`,
-                  "description": "𝚂𝚎𝚖𝚞𝚊 𝚖𝚎𝚗𝚞",
+                  "description": "جميع الاوامر",
                   "rowId": '.? all'
-                  }, {
-                  "title": "⌠ 🇯🇵 ⌡ ᴀɴɪᴍᴇ ᴍᴇɴᴜ",
-                  "description": "𝚆𝚒𝚋𝚞 𝚑𝚊𝚕𝚞 𝚖𝚎𝚗𝚞",
-                  "rowId": `${_p}? anime`
                 }, {
                   "title": "⌠ 🎨 ⌡ sᴛɪᴄᴋᴇʀ & ᴄᴏɴᴠᴇʀᴛᴇʀ",
-                  "description": "𝙼𝚎𝚗𝚞 𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝙲𝚘𝚗𝚟𝚎𝚛𝚝",
+                  "description": "قسم تحويل الملصقات و الملفات",
                   "rowId": `${_p}? sticker`
                 }, {
                   "title": "⌠ 🔰 ⌡ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ",
-                  "description": "𝙵𝚒𝚝𝚞𝚛 𝚋𝚞𝚊𝚝 𝚗𝚐𝚎-𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍",
+                  "description": "قسم تحميل الملفات من بعض المواقع",
                   "rowId": `${_p}? downloader`
                 }, {
                   "title": "⌠ 📊 ⌡ ᴇxᴘ ᴅᴀɴ ʟɪᴍɪᴛ",
                   "description": "𝚂𝚎𝚙𝚞𝚝𝚊𝚛 𝙴𝚡𝚙 𝚍𝚊𝚗 𝙻𝚒𝚖𝚒𝚝",
                   "rowId": `${_p}? xp`
-                }, {
-                  "title": "⌠ 🤺 ⌡ ғᴜɴ ᴍᴇɴᴜ",
-                  "description": " 𝙱𝚞𝚊𝚝 𝚜𝚎𝚛𝚞-𝚜𝚎𝚛𝚞𝚊𝚗",
-                  "rowId": `${_p}? fun`
-                }, {
-                  "title": "⌠ 🧰 ⌡  ɢɪᴛʜᴜʙ",
-                  "description": "𝙶𝚒𝚝𝚑𝚞𝚋 𝚌𝚛𝚎𝚊𝚝𝚘𝚛",
-                  "rowId": `${_p}? github`
                 }, {
                   "title": "⌠  🏢 ⌡   ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
                   "description": "𝙼𝚎𝚗𝚞 𝚋𝚞𝚊𝚝 𝚐𝚛𝚞𝚙",
@@ -326,25 +314,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Islam",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "│🐚│KERANG",
-                  "description": "Menampilkan Menu Kerang",
-                  "rowId": `${_p}? kerang`
-                }, {
-                  "title": "│✒️│MAKER",
-                  "description": "Menampilkan Menu Maker",
-                  "rowId": `${_p}? maker`
-                }, {
                   "title": "│👨‍💻│OWNER",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
-                }, {
-                  "title": "│🎙│PENGUBAH SUARA",
-                  "description": "Menampilkan Menu Voice Changer",
-                  "rowId": `${_p}? suara`
-                }, {
-                  "title": "│🔝│PREMIUM",
-                  "description": "Menampilkan Menu Premium",
-                  "rowId": `${_p}? premium`
                 }, {
                   "title": "│🔗│SHORT LINK",
                   "description": "Menampilkan Menu Short Link",
