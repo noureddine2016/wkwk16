@@ -35,7 +35,7 @@ global.wait = 'Process...'
 global.eror = 'ERROR'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
-global.stiker_wait = 'Stiker sedang dibuat'
+global.stiker_wait = 'please wait 3afak tsna xwia asidi '
 global.packname = 'Created by'
 global.author = 'noureddine ouafy⛧⁩⁩'
 
