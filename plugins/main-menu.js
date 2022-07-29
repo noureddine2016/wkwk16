@@ -321,7 +321,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 }, 
                   ],
                 "title": "LIST MENU"
-              }
+              },
             ], "contextInfo": {
               "stanzaId": m.key.id,
               "participant": m.sender,
