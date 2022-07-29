@@ -42,16 +42,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'MENU UTAMA',
-  'advanced': 'ADVANCED',
-  'absen': 'MENU ABSEN',
-  'anime': 'MENU ANIME',
   'sticker': 'MENU CONVERT',
   'downloader': 'MENU DOWNLOADER',
   'xp': 'MENU EXP',
-  'fun': 'MENU FUN',
-  'github': 'MENU GITHUB',
   'group': 'MENU GROUP',
-  'image': 'MENU IMAGE',
   'internet': 'INTERNET',
   'islam' : 'MENU ISLAMI',
   'owner': 'MENU OWNER',
