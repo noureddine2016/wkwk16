@@ -16,7 +16,7 @@ ${text}
 `.trim(), wm, 'NEXT', `.gimage ${text}`, m)
 }
 handler.help = ['image <query>', 'gimage <query>', 'googleimage <query>']
-handler.tags = ['internet']
+handler.tags = ['tools']
 handler.command = /^(gimage|googleimage|image)$/i
 
 module.exports = handler
