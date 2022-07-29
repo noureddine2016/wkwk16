@@ -60,7 +60,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 }
 
-handler.help = ['wm <teks>|<teks>']
+handler.help = ['wm text | text']
 
 handler.tags = ['sticker']
 
