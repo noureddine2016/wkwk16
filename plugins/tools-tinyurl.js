@@ -10,7 +10,7 @@ fur.reply(m.chat, await shortlink(text), m)
 }
 
 handler.help = ['tinyurl'].map(v => v + ' <link>')
-handler.tags = ['shortlink']
+handler.tags = ['tools']
 handler.command = /^tinyurl$/i
 
 module.exports = handler
