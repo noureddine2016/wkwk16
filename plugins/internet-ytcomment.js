@@ -8,7 +8,7 @@ let handler = async (m, { conn, text }) => {
 }
 
 handler.help = ['ytcomment    تعليق مزور']
-handler.tags = ['internet']
+handler.tags = ['tools']
 
 handler.command = /^(ytcomment)$/i
 
