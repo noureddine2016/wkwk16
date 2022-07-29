@@ -483,7 +483,7 @@ function ucapan() {
     res = "Selamat Sore"
   }
   if (time >= 18) {
-    res = "Selamat Malam"
+    res = "HELLO"
   }
   return res
 }
