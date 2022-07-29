@@ -386,22 +386,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "│📃│TEXT MAKER",
-                  "description": "Menampilkan Maker Text",
-                  "rowId": `${_p}? text`
-                }, {
-                  "title": "│🧼│HENTAI",
-                  "description": "Menampilkan Menu Hentai",
-                  "rowId": `${_p}? nsfw`
-                }, {
-                  "title": "│🌚│RANDOM",
-                  "description": "Menampilkan Menu Random/Gabut",
-                  "rowId": `${_p}? random`
-                }, {
-                  "title": "│⛄│TEXT PRO",
-                  "description": "Menampilkan Text Pro Menu",
-                  "rowId": `${_p}? textpro`
-                }, {
                   "title": "│💨│PHOTO OXY",
                   "description": "Menampilkan Photo Oxy Menu",
                   "rowId": `${_p}? textpro`
