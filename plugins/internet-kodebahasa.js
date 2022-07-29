@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-┏━━°❀❬ *Kode Bahasa* ❭❀°━━┓
+┏━━°❀❬ *اختصالر اللفات* ❭❀°━━┓
 ┃
 ┃• af : Afrikaans
 ┃• sq : Albanian
@@ -55,7 +55,7 @@ let handler = async m => m.reply(`
 ┗━━━━━━━━━━━━━━━━
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['kodebahasa']
-handler.tags = ['internet']
+handler.tags = ['tools']
 handler.command = /^kodebahasa$/i
 
 module.exports = handler
