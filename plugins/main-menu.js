@@ -366,18 +366,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Premium",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "│📑│QUOTES",
-                  "description": "Menampilkan Menu Quotes",
-                  "rowId": `${_p}? quotes`
-                }, {
-                  "title": "│🌱│RPG",
-                  "description": "Menampilkan Menu Rpg",
-                  "rowId": `${_p}? rpg`
-                }, {
-                  "title": "│🐾│STALKER",
-                  "description": "Menampilkan Menu Stalker",
-                  "rowId": `${_p}? stalk`
-                }, {
                   "title": "│🔗│SHORT LINK",
                   "description": "Menampilkan Menu Short Link",
                   "rowId": `${_p}? shortlink`
