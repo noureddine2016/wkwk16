@@ -318,9 +318,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "TOOLS MENU",
                   "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
-                }, {
+                }
+                  ],
                 "title": "LIST MENU"
-              },
+              }
             ], "contextInfo": {
               "stanzaId": m.key.id,
               "participant": m.sender,
