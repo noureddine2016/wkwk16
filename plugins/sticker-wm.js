@@ -54,7 +54,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     else throw `هذا الامر لوضع حقوق للملصق 
     قم بالاشارة للملصق ثم اكتب : مثال 
-    .wm Noureddine | ouafy*`
+    *.wm Noureddine | ouafy*`
 
   }
 
