@@ -270,9 +270,9 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `┏━━━ ﹝𝔹𝕆𝕋 𝕀ℕ𝔽𝕆﹞ ━━⚀︎
-┠ 💻𝘖𝘸𝘯𝘦𝘳 ➨ ${global.nameowner}
-┠👤𝘊𝘳𝘦𝘢𝘵𝘰𝘳 ➨ 𝘎𝘦𝘮𝘱𝘺
-┠🤖𝘉𝘰𝘵𝘕𝘢𝘮𝘦 ➨ ${global.namebot}
+┠ 💻smia ➨ ${global.nameowner}
+┠👤moulah ➨ 𝘎𝘦𝘮𝘱𝘺
+┠🤖𝘉otname ➨ ${global.namebot}
 ┠🔱𝘔𝘰𝘥𝘦 ➨ ${global.opts['self'] ? 'Self' : 'publik'}
 ┠ ⏲️𝘙𝘶𝘯𝘵𝘪𝘮𝘦 ➨ ${uptime}
 ┗━━━━━━━━━━━━━━━━⚀︎`
@@ -280,9 +280,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: '⌜ᴘɪʟɪʜ ᴍᴇɴᴜ⌟',
+            buttonText: '⌜wrak hna a3chiri⌟',
             listType: 1,
-            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "salam cv",
             mtype: 'listMessage',
             sections: [
               {
