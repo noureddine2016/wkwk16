@@ -29,7 +29,7 @@ instagram.com/noureddine_ouafy
 
 `.trimStart(), 
   header: '╭──── %category ────࿋',
-  body: '  %cmd %islimit %isPremium',
+  body: ' ┃ %cmd %islimit %isPremium',
   footer: '╰─────────────࿋\n', 
   after: ``,
 }
