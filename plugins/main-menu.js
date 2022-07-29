@@ -269,7 +269,7 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `┏━━━ ﹝𝔹𝕆𝕋 𝕀ℕ𝔽𝕆﹞ ━━⚀︎
+let menuu = `┏━━━ ﹝bobiz bot﹞ ━━⚀︎
 ┠ 💻smia ➨ ${global.nameowner}
 ┠👤moulah ➨ 𝘎𝘦𝘮𝘱𝘺
 ┠🤖𝘉otname ➨ ${global.namebot}
