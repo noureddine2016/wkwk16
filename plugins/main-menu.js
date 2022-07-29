@@ -23,10 +23,17 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
  
-انا أدعـــى بوبيز 
-تابعني صاحب البوت في الانستغرام و سأرسل لك دجاجة مشوية (بوبيز حامض)
-instagram.com/noureddine_ouafy
+انستغرامي
 
+https://tinyurl.com/25w7l9b9
+
+قناتي
+
+https://tinyurl.com/y73nwuh6
+
+صفحتي
+
+https://tinyurl.com/27hhdthq
 `.trimStart(), 
   header: '╭──── %category ────࿋',
   body: ' ┃ %cmd %islimit %isPremium',
