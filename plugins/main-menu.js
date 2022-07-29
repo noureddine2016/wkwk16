@@ -254,26 +254,24 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `
- ━━━━━━━━━━━━━━━━━━━━━
+
  
 ❀ Welcome To ʙᴏʙɪᴢ ʙᴏᴛ 
- كـن في الدنيا كأنـك غـريب أو كـعابر سبيل 
-»»————-*ʏᴏᴜᴛᴜʙᴇ*
-————-««
+
+*ʏᴏᴜᴛᴜʙᴇ* :
 https://tinyurl.com/y73nwuh6
 *ɪɴꜱᴛᴀɢʀᴀᴍ* :
 https://tinyurl.com/25w7l9b9
 *ꜰʙ ᴘᴀɢᴇ* :
 https://tinyurl.com/27hhdthq
-
- ━━━━━━━━━━━━━━━━━━━━━`
+`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
             buttonText: ' Menu إضغط هنا لتتعرف على ',
             listType: 1,
-            footerText: "instagram.com/noureddine_ouafy",
+            footerText: "كـن في الدنيا كأنـك غـريب أو كـعابر سبيل ",
             mtype: 'listMessage',
             sections: [
               {
