@@ -22,7 +22,10 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-salam azoul hi salut
+مرحبا 
+انا أدعـــى بوبيز 
+تابعني صاحب البوت في الانستغرام و سأرسل لك دجاجة مشوية (بوبيز حامض)
+instagram.com/noureddine_ouafy
 
 `.trimStart(), 
   header: '╭────「 %category 」────࿋',
@@ -270,10 +273,10 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `
-☺━━━━━━━━━━━━━━━━━━━━━━━━
+☺━━━━━━━━━━━━━━━━━━━━━━
 ❀ Welcome To My bot ♥
 ❀ ʙᴏʙɪᴢ ʙᴏᴛ ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ
-☺━━━━━━━━━━━━━━━━━━━━━━━━`
+☺━━━━━━━━━━━━━━━━━━━━━━`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
@@ -289,7 +292,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
                   "rowId": `.owner`
                 },{
-                  "title": "«⚠️» 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎",
+                  "title": "«⚠️» معلومات عن البوت",
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘",
                   "rowId": `${_p}? info`
                 }],
@@ -500,7 +503,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
                {
              quickReplyButton: {
-               displayText: '𝐃𝐎𝐍𝐀𝐒𝐈',
+               displayText: 'إشتري لي قهوة 😅  Donate Me',
                id: '.donasi',
              }
 
