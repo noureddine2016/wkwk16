@@ -270,22 +270,22 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `
-
-❀ BOBIZ BOT IS THE #1 BOT IN MOROCCO
+☺━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❀ Welcome To My bot ♥
 ❀ ʙᴏʙɪᴢ ʙᴏᴛ ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ
-┗━━━━━━━━━━━━━━━━⚀︎`
+☺━━━━━━━━━━━━━━━━━━━━━━━━━━━`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: '⌜ Menu إضغط هنا لتتعرف على⌟',
+            buttonText: ' Menu إضغط هنا لتتعرف على ',
             listType: 1,
             footerText: "instagram.com/noureddine_ouafy",
             mtype: 'listMessage',
             sections: [
               {
                 "rows": [{
-                  "title": ` «👤» 𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓`,
+                  "title": ` «👤» صاحب البوت`,
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
                   "rowId": `.owner`
                 },{
