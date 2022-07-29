@@ -22,14 +22,14 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-﷽ 
+ 
 انا أدعـــى بوبيز 
 تابعني صاحب البوت في الانستغرام و سأرسل لك دجاجة مشوية (بوبيز حامض)
 instagram.com/noureddine_ouafy
 
 `.trimStart(), 
-  header: '╭────「 %category 」────࿋',
-  body: '😄 %cmd %islimit %isPremium',
+  header: '╭──── %category ────࿋',
+  body: '  %cmd %islimit %isPremium',
   footer: '╰─────────────࿋\n', 
   after: ``,
 }
@@ -271,65 +271,61 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             sections: [
               {
                 "rows": [{
-                  "title": ` «👤» صاحب البوت`,
+                  "title": `  صاحب البوت`,
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
                   "rowId": `.owner`
                 },{
-                  "title": "«⚠️» معلومات عن البوت",
+                  "title": " معلومات عن البوت",
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘",
                   "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
-                  "title": `⌠ 💬 ⌡ ᴀʟʟ ᴍᴇɴᴜ`,
+                  "title": ` ᴀʟʟ ᴍᴇɴᴜ`,
                   "description": "جميع الاوامر",
                   "rowId": '.? all'
                 }, {
-                  "title": "⌠ 🎨 ⌡ sᴛɪᴄᴋᴇʀ & ᴄᴏɴᴠᴇʀᴛᴇʀ",
+                  "title": " sᴛɪᴄᴋᴇʀ & ᴄᴏɴᴠᴇʀᴛᴇʀ",
                   "description": "قسم تحويل الملصقات و الملفات",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "⌠ 🔰 ⌡ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ",
+                  "title": " ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ",
                   "description": "قسم تحميل الملفات من بعض المواقع",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "⌠ 📊 ⌡ ᴇxᴘ ᴅᴀɴ ʟɪᴍɪᴛ",
+                  "title": " ᴇxᴘ ᴅᴀɴ ʟɪᴍɪᴛ",
                   "description": "𝚂𝚎𝚙𝚞𝚝𝚊𝚛 𝙴𝚡𝚙 𝚍𝚊𝚗 𝙻𝚒𝚖𝚒𝚝",
                   "rowId": `${_p}? xp`
                 }, {
-                  "title": "⌠  🏢 ⌡   ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
+                  "title": "  ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
                   "description": "𝙼𝚎𝚗𝚞 𝚋𝚞𝚊𝚝 𝚐𝚛𝚞𝚙",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "│🖼│IMAGE",
+                  "title": "IMAGE",
                   "description": "Menampilkan Menu Image",
                   "rowId": `${_p}? image`
                 }, {
-                  "title": "│📡│INTERNET",
+                  "title": "INTERNET",
                   "description": "Menampilkan Menu Internet",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "│🕋│ISLAMIC",
+                  "title": "ISLAMIC",
                   "description": "Menampilkan Menu Islam",
                   "rowId": `${_p}? islam`
                 }, {
-                  "title": "│👨‍💻│OWNER",
+                  "title": "OWNER",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "│🔗│SHORT LINK",
+                  "title": "SHORT LINK",
                   "description": "Menampilkan Menu Short Link",
                   "rowId": `${_p}? shortlink`
                 }, {
-                  "title": "│🛠│TOOLS MENU",
+                  "title": "TOOLS MENU",
                   "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
-                }, {
-                  "title": "│💨│PHOTO OXY",
-                  "description": "Menampilkan Photo Oxy Menu",
-                  "rowId": `${_p}? textpro`
-                }
+                }, 
                   ],
                 "title": "LIST MENU"
               }
