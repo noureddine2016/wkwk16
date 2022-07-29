@@ -28,8 +28,8 @@ https://tinyurl.com/25w7l9b9
 قناتي
 https://tinyurl.com/y73nwuh6
 صفحتي
-
 https://tinyurl.com/27hhdthq
+
 `.trimStart(), 
   header: '╭──── %category ────࿋',
   body: ' ┃ %cmd %islimit %isPremium',
@@ -256,10 +256,16 @@ if (teks == '404') {
 let menuu = `
  ━━━━━━━━━━━━━━━━━━━━━
  
-❀ Welcome To 
-        ʙᴏʙɪᴢ ʙᴏᴛ 
+❀ Welcome To ʙᴏʙɪᴢ ʙᴏᴛ 
  كـن في الدنيا كأنـك غـريب أو كـعابر سبيل 
-youtube.com/noureddineouafy
+»»————-*ʏᴏᴜᴛᴜʙᴇ*
+————-««
+https://tinyurl.com/y73nwuh6
+*ɪɴꜱᴛᴀɢʀᴀᴍ* :
+https://tinyurl.com/25w7l9b9
+*ꜰʙ ᴘᴀɢᴇ* :
+https://tinyurl.com/27hhdthq
+
  ━━━━━━━━━━━━━━━━━━━━━`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
