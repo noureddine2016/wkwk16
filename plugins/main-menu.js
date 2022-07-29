@@ -270,19 +270,17 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `
-┏━━━ ﹝bobiz bot﹞ ━━⚀︎
-┠ BOBIZ BOT IS THE #1 BOT IN MOROCCO
-┠ إسم الــبوت  ❀ ${global.namebot}
-┠ وضع البوت  ❀ ${global.opts['self'] ? 'Self' : 'publik'}
-┠ البوت شغال منذ ❀ ${uptime}
+
+❀ BOBIZ BOT IS THE #1 BOT IN MOROCCO
+❀ ʙᴏʙɪᴢ ʙᴏᴛ ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ
 ┗━━━━━━━━━━━━━━━━⚀︎`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: '⌜wrak hna a3chiri⌟',
+            buttonText: '⌜ Menu إضغط هنا لتتعرف على⌟',
             listType: 1,
-            footerText: "salam cv",
+            footerText: "instagram.com/noureddine_ouafy",
             mtype: 'listMessage',
             sections: [
               {
