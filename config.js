@@ -4,10 +4,10 @@ global.mods = []
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'ıllıllı⭐🌟 n͙o͙u͙r͙e͙d͙d͙i͙n͙e͙ o͙u͙a͙f͙y͙ 🌟⭐ıllıllı⁩⁩'
+global.nameowner = 'ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ⁩⁩'
 global.numberowner = '212774592783'
 global.instagram = 'https://www.instagram.com/noureddine_ouafy'
-global.github = 'https://github.com/gmpyyy'
+global.github = 'https://instagram.com/noureddine_ouafy'
 global.dana = '087898307350'
 global.pulsa = '087898307350'
 global.gopay = '-'
