@@ -277,7 +277,7 @@ let menuu = `
  
 ❀ Welcome To 
         ʙᴏʙɪᴢ ʙᴏᴛ 
- كن في الدنيا كأنك غريب أو كعابر سبيل 
+ كـن في الدنيا كأنـك غـريب أو كـعابر سبيل 
 
  ☺━━━━━━━━━━━━━━━━━━━━━`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
@@ -325,10 +325,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⌠ 🤺 ⌡ ғᴜɴ ᴍᴇɴᴜ",
                   "description": " 𝙱𝚞𝚊𝚝 𝚜𝚎𝚛𝚞-𝚜𝚎𝚛𝚞𝚊𝚗",
                   "rowId": `${_p}? fun`
-                }, {
-                  "title": "⌠ 🎮 ⌡ ɢᴀᴍᴇ ᴍᴇɴᴜ",
-                  "description": "𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚐𝚊𝚖𝚎",
-                  "rowId": `${_p}? game`
                 }, {
                   "title": "⌠ 🧰 ⌡  ɢɪᴛʜᴜʙ",
                   "description": "𝙶𝚒𝚝𝚑𝚞𝚋 𝚌𝚛𝚎𝚊𝚝𝚘𝚛",
