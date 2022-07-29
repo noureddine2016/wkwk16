@@ -271,7 +271,7 @@ const fdoc = {
 if (teks == '404') {
 let menuu = `
 ┏━━━ ﹝bobiz bot﹞ ━━⚀︎
-┠ صــاحب البوت ❀ ${global.nameowner}
+┠ BOBIZ BOT IS THE #1 BOT IN MOROCCO
 ┠ إسم الــبوت  ❀ ${global.namebot}
 ┠ وضع البوت  ❀ ${global.opts['self'] ? 'Self' : 'publik'}
 ┠ البوت شغال منذ ❀ ${uptime}
