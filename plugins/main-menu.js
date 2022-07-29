@@ -273,10 +273,13 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `
-☺━━━━━━━━━━━━━━━━━━━━━━
-❀ Welcome To My bot ♥
-❀ ʙᴏʙɪᴢ ʙᴏᴛ ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ
-☺━━━━━━━━━━━━━━━━━━━━━━`
+ ☺━━━━━━━━━━━━━━━━━━━━━
+ 
+❀ Welcome To 
+        ʙᴏʙɪᴢ ʙᴏᴛ 
+ كن في الدنيا كأنك غريب أو كعابر سبيل 
+
+ ☺━━━━━━━━━━━━━━━━━━━━━`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
