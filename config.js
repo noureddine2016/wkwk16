@@ -8,9 +8,9 @@ global.nameowner = 'ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀꜰʏ⁩⁩'
 global.numberowner = '212774592783'
 global.instagram = 'https://www.instagram.com/noureddine_ouafy'
 global.github = 'https://instagram.com/noureddine_ouafy'
-global.dana = '087898307350'
-global.pulsa = '087898307350'
-global.gopay = '-'
+global.dana = ''
+global.pulsa = ''
+global.gopay = ''
 
 //=============『 Info Bot 』=================//
 global.namebot = '★彡[ʙᴏʙɪᴢ ʙᴏᴛ]彡★'
