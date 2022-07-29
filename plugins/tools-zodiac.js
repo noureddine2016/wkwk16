@@ -15,14 +15,13 @@ let handler = (m, { usedPrefix, command, text }) => {
     const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Selamat ulang tahun yang ke-${age} 🥳` : age
 
     const teks = `
-Lahir : ${birth.join('-')}
-Ultah Mendatang : ${birthday.join('-')}
-Usia : ${cekusia}
-Zodiak : ${zodiac}
+date de naissance : ${birth.join('-')}
+date d aujoudhui : ${birthday.join('-')}
+donc votre age est : ${cekusia}
 `.trim()
     m.reply(teks)
 }
-handler.help = ['zodiac *2002 02 25*']
+handler.help = ['zodiac *حساب تاريخ الازذياد*']
 handler.tags = ['tools', 'internet', 'fun']
 
 handler.command = /^zodia[kc]$/i
