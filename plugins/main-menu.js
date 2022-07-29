@@ -47,9 +47,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'xp': ' EXP',
   'group': ' GROUP',
   'internet': 'INTERNET',
-  'islam' : ' ISLAMI',
   'owner': ' OWNER',
-  'shortlink': 'SHORT LINK',
   'tools': ' TOOLS',
   'asupan': 'ASUPAN ',
   }
@@ -302,25 +300,13 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "𝙼𝚎𝚗𝚞 𝚋𝚞𝚊𝚝 𝚐𝚛𝚞𝚙",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "IMAGE",
-                  "description": "Menampilkan Menu Image",
-                  "rowId": `${_p}? image`
-                }, {
                   "title": "INTERNET",
                   "description": "Menampilkan Menu Internet",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "ISLAMIC",
-                  "description": "Menampilkan Menu Islam",
-                  "rowId": `${_p}? islam`
-                }, {
                   "title": "OWNER",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
-                }, {
-                  "title": "SHORT LINK",
-                  "description": "Menampilkan Menu Short Link",
-                  "rowId": `${_p}? shortlink`
                 }, {
                   "title": "TOOLS MENU",
                   "description": "Menampilkan Menu Tools",
