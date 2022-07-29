@@ -59,17 +59,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'kerang': 'MENU KERANG',
   'maker': 'MENU MAKER',
   'owner': 'MENU OWNER',
-  'Pengubah Suara': 'PENGUBAH SUARA',
-  'premium': 'PREMIUM MENU',
-  'quotes' : 'MENU QUOTES',
   'shortlink': 'SHORT LINK',
   'tools': 'MENU TOOLS',
-  'vote': 'MENU VOTING',
-  'nsfw': 'NSFW MENU', 
-  'asupan': 'ASUPAN MENU', 
-  'random': 'RANDOM MENU', 
-  'textpro': 'TEXT PRO MENU', 
-  'photooxy': 'PHOTO OXY MENU', 
+  'asupan': 'ASUPAN MENU',
   }
   if (teks == 'absen') tags = {
     'absen': 'MENU ABSEN',
