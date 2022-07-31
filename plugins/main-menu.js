@@ -381,8 +381,12 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                displayText: 'صفــحتــي علــى الفيسبوك', 
                url: gc
              }
-
-           },
+            },
+           {
+             quickReplyButton: {
+               displayText: '𝐂𝐑𝐄𝐃𝐈𝐓',
+               id: '.tqto',
+             }
            }]
          }
        }
