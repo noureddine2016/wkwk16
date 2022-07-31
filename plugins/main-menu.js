@@ -384,7 +384,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             },
            {
              quickReplyButton: {
-               displayText: '𝐂𝐑𝐄𝐃𝐈𝐓',
+               displayText: 'شكرا لنك تستعمل  ʙᴏʙɪᴢ ʙᴏᴛ ',
                id: '.tqto',
              }
            }]
