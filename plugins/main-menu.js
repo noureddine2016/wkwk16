@@ -309,30 +309,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "⌠ 🔰 ⌡ قسم تحميل الملفات من بعض المواقع",
                   "description": "𝙵𝚒𝚝𝚞𝚛 𝚋𝚞𝚊𝚝 𝚗𝚐𝚎-𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍",
                   "rowId": `${_p}? downloader`
-                },{
-                  "title": "⌠ 🧰 ⌡  ɢɪᴛʜᴜʙ",
-                  "description": "𝙶𝚒𝚝𝚑𝚞𝚋 𝚌𝚛𝚎𝚊𝚝𝚘𝚛",
-                  "rowId": `${_p}? github`
                 }, {
                   "title": "⌠  🏢 ⌡   ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
                   "description": "𝙼𝚎𝚗𝚞 𝚋𝚞𝚊𝚝 𝚐𝚛𝚞𝚙",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "│🖼│IMAGE",
-                  "description": "Menampilkan Menu Image",
-                  "rowId": `${_p}? image`
-                }, {
-                  "title": "│📡│INTERNET",
-                  "description": "Menampilkan Menu Internet",
-                  "rowId": `${_p}? internet`
-                }, {
                   "title": "│👨‍💻│OWNER",
                   "description": "Menampilkan Menu Owner",
                   "rowId": `${_p}? owner`
-                }, {
-                  "title": "│🔝│PREMIUM",
-                  "description": "Menampilkan Menu Premium",
-                  "rowId": `${_p}? premium`
                 }, {
                   "title": "│🛠│TOOLS MENU",
                   "description": "Menampilkan Menu Tools",
