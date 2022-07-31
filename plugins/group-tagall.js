@@ -1,5 +1,5 @@
 let handler = async(m, { conn, text, participants }) => {
-  let teks = `⋙ *Pesan dari Admin Group* ⋘
+  let teks = `⋙ *Message from Group Admin* ⋘
 \n *${text ? text : 'Nothing'}*\n\n`
 		      	for (let mem of participants) {
 		            teks += ` @${mem.id.split('@')[0]}\n`
