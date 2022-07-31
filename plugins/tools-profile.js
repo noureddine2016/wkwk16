@@ -24,7 +24,7 @@ ${registered ? '🎨 • *Age:* ' + age : ''}
     conn.sendFile(m.chat, await(await require('node-fetch')(pp)).buffer(), pp.jpg, str, m, false, { contextInfo: { mentionedJid }})
   }
 }
-handler.help = ['profile  معلومات عنك[@user]']
+handler.help = ['profile  معلومات عنك']
 handler.tags = ['tools']
 handler.command = /^profile|pp$/i
 module.exports = handler
