@@ -440,13 +440,13 @@ function ucapan() {
     res = "Selamat Pagi"
   }
   if (time > 10) {
-    res = "Selamat Siang"
+    res = "مرحبا صديقي ♥"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "مرحبا كيف حالك 😄"
   }
   if (time >= 18) {
-    res = "Selamat Malam"
+    res = "السلام عليك ♥"
   }
   return res
 }
