@@ -41,7 +41,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-  'main': 'UTAMA',
   'sticker': 'CONVERT',
   'downloader': 'DOWNLOADER',
   'group': 'GROUP',
@@ -267,34 +266,34 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
               {
                 "rows": [{
                   "title": `صاحب البوت`,
-                  "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
+                  "description": "𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
                   "rowId": `.owner`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
-                  "title": `⌠ 💬 ⌡ جميع الاوامر`,
-                  "description": "𝚂𝚎𝚖𝚞𝚊 𝚖𝚎𝚗𝚞",
+                  "title": `جميع الاوامر`,
+                  "description": "ᴀʟʟ ᴍᴇɴᴜ",
                   "rowId": '.? all'
                   }, {
-                  "title": "⌠ 🎨 ⌡ قسم تحويل الملصقات و الملفات",
+                  "title": "قسم تحويل الملصقات و الملفات",
                   "description": "𝙼𝚎𝚗𝚞 𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝙲𝚘𝚗𝚟𝚎𝚛𝚝",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "⌠ 🔰 ⌡ قسم تحميل الملفات من بعض المواقع",
-                  "description": "𝙵𝚒𝚝𝚞𝚛 𝚋𝚞𝚊𝚝 𝚗𝚐𝚎-𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍",
+                  "title": "قسم تحميل الملفات من بعض المواقع",
+                  "description": "ᴅᴏᴡɴʟᴏᴀᴅ ꜰʀᴏᴍ ᴠɪᴅᴇᴏ & ᴍᴜꜱɪᴄ ꜱᴏᴍᴇ ᴡᴇʙꜱɪᴛᴇꜱ",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "⌠  🏢 ⌡   ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                  "description": "𝙼𝚎𝚗𝚞 𝚋𝚞𝚊𝚝 𝚐𝚛𝚞𝚙",
+                  "title": "أوامر خاصة بصحاب البوت في المجموعات",
+                  "description": "𝙼𝚎𝚗𝚞 For owner on  𝚐𝚛𝚞𝚙",
                   "rowId": `${_p}? group`
                 }, {
-                  "title": "│👨‍💻│OWNER",
-                  "description": "Menampilkan Menu Owner",
+                  "title": "أوامر خاصة بصاحب البوت لا تجربها لانها لن تشتغل معك",
+                  "description": "Menu only for Owner",
                   "rowId": `${_p}? owner`
                 }, {
-                  "title": "│🛠│TOOLS MENU",
-                  "description": "Menampilkan Menu Tools",
+                  "title": "أوامر إضافية رائعة",
+                  "description": "Menu Tools advanced ",
                   "rowId": `${_p}? tools`
                 }
                   ],
