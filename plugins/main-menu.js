@@ -273,8 +273,8 @@ let menuu = `┏━━━ ﹝B O U B I Z   B O T﹞ ━━⚀︎
 ┠ انستغرامي ➨ https://tinyurl.com/25w7l9b9
 ┠👤صفحتي ➨ https://tinyurl.com/y73nwuh6
 ┠🤖قناتي ➨ https://tinyurl.com/27hhdthq
-┠🔱𝘔𝘰𝘥𝘦_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ➨ ${global.opts['self'] ? 'Self' : 'publik'}
-┠ ⏲️𝘙𝘶𝘯𝘵𝘪𝘮𝘦_XXXXXXXXXXXXXXXXXXXXXXXXX ➨ ${uptime}
+┠ 
+┠ 
 ┗━━━━━━━━━━━━━━━━⚀︎`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
