@@ -22,10 +22,13 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Hello مرحبا 
+شكرا لانك تستعمل بوبيز بوت 
+اذا لم تفهم هذه الاوامر و في ماذا يفيذ استخدامها رجاء شاهد هذا الفيديو لتعرف كيف تستخدم البوت
+https://tinyurl.com/25w7l9b9
 
 `.trimStart(), 
-  header: '╭────「 %category 」────࿋',
+  header: '╭──── %category────࿋',
   body: '└⊱ %cmd %islimit %isPremium',
   footer: '╰───────────࿋\n', 
   after: ``,
@@ -38,37 +41,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let arrayMenu = ['all', 'absen', 'rpg', 'anime', 'downloader', 'game', 'fun', 'xp', 'github', 'group', 'image', 'quotes', 'admin', 'info', 'internet', 'islam', 'kerang', 'maker', 'owner', 'suara', 'premium', 'quotes', 'info', 'stalk', 'shortlink', 'sticker', 'tools', 'text', 'nsfw', 'asupan', 'random', 'textpro', 'photooxy']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-  'main': 'MENU UTAMA',
-  'advanced': 'ADVANCED',
-  'absen': 'MENU ABSEN',
-  'anime': 'MENU ANIME',
-  'sticker': 'MENU CONVERT',
-  'downloader': 'MENU DOWNLOADER',
-  'xp': 'MENU EXP',
-  'fun': 'MENU FUN',
-  'game': 'MENU GAME',
-  'github': 'MENU GITHUB',
-  'group': 'MENU GROUP',
-  'image': 'MENU IMAGE',
-  'info': 'MENU INFO',
-  'internet': 'INTERNET',
-  'islam' : 'MENU ISLAMI',
-  'kerang': 'MENU KERANG',
-  'maker': 'MENU MAKER',
-  'owner': 'MENU OWNER',
-  'Pengubah Suara': 'PENGUBAH SUARA',
-  'premium': 'PREMIUM MENU',
-  'quotes' : 'MENU QUOTES',
-  'rpg': 'MENU RPG',
-  'stalk': 'MENU STALK',
-  'shortlink': 'SHORT LINK',
+  'main': 'UTAMA',
+  'sticker': 'CONVERT',
+  'downloader': 'DOWNLOADER',
+  'group': 'GROUP',
+  'owner': 'OWNER',
   'tools': 'MENU TOOLS',
-  'vote': 'MENU VOTING',
-  'nsfw': 'NSFW MENU', 
-  'asupan': 'ASUPAN MENU', 
-  'random': 'RANDOM MENU', 
-  'textpro': 'TEXT PRO MENU', 
-  'photooxy': 'PHOTO OXY MENU', 
   }
   if (teks == 'absen') tags = {
     'absen': 'MENU ABSEN',
