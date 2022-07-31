@@ -9,7 +9,7 @@ fur.reply(m.chat, await shortlink(text), m)
  
 }
 
-handler.help = ['tinyurl'].map(v => v + ' <link>')
+handler.help = ['tinyurl'].map(v => v +   '  اختصار روابط')
 handler.tags = ['tools']
 handler.command = /^tinyurl$/i
 
