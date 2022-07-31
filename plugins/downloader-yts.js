@@ -19,7 +19,7 @@ ${v.videoCount} video
   }).filter(v => v).join('\n========================\n')
   m.reply(teks)
 }
-handler.help = [''].map(v => 'yts' + v + ' <pencarian>')
+handler.help = [''].map(v => 'yts' + v + '  البحث في اليوتوب')
 handler.tags = ['tools']
 handler.command = /^yts(earch)?$/i
 
