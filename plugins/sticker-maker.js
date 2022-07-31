@@ -31,7 +31,7 @@ try {
   }
 }
 
-handler.help = ['stickmaker (caption|reply img)']
+handler.help = ['stickmaker  تحويل صورة لملصق']
 handler.tags = ['sticker']
 handler.command = /^(stickmaker|smaker)$/i
 handler.limit = false
