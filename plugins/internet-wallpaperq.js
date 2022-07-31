@@ -12,7 +12,7 @@ let handler = async (m, { conn, text }) => {
   let img = json.wallpapers[Math.floor(Math.random() * json.wallpapers.length)]
   await conn.sendFile(m.chat, img.url_image, 'wallpaper', '^_^;', m)
 }
-handler.help = ['wallpaperq <query>']
+handler.help = ['wallpaperq   تحميل الصور']
 handler.tags = ['tools']
 handler.command = /^wall(paper)?q?$/i
 handler.limit = false
