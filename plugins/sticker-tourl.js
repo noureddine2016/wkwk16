@@ -12,8 +12,8 @@ let handler = async (m) => {
 ${media.length} Byte(s)
 ${isTele ? '(تم رفع الملف بنجاج وهذا رابطه ♥ )' : '(Tidak diketahui)'}`)
 }
-handler.help = ['tourl  Telegra.ph Upload']
-handler.tags = ['sticker']
+handler.help = ['tourl  Telegra ph Upload']
+handler.tags = ['tools']
 handler.command = /^(upload|tourl)$/i
 
 module.exports = handler
