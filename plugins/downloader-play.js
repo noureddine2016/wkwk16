@@ -81,7 +81,7 @@ ${vid.url}
          { messageId: template.key.id }
      )
 }
-handler.help = ['play'].map(v => v + ' <pencarian>')
+handler.help = ['play'].map(v => v + ' اســم الاغنية ')
 handler.tags = ['downloader']
 handler.command = /^(p|play)$/i
 
