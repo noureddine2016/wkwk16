@@ -6,7 +6,7 @@ let handler = async (m, { text }) => {
   if (json.status) m.reply(json.result.link)
   else throw 'Link Invalid!\nPeriksa url anda'
 }
-handler.help = ['bitly'].map(v => v + ' <link>')
+handler.help = ['bitly'].map(v => v +  ' اختصار روابط')
 handler.tags = ['tools']
 handler.command = /^bitly$/i
 
