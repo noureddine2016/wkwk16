@@ -269,13 +269,14 @@ const fdoc = {
 
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
-let menuu = `┏━━━ ﹝B O U B I Z   B O T﹞ ━━⚀︎
-┠ انستغرامي ➨ https://tinyurl.com/25w7l9b9
-┠👤صفحتي ➨ https://tinyurl.com/y73nwuh6
-┠🤖قناتي ➨ https://tinyurl.com/27hhdthq
-┠ 
-┠ 
-┗━━━━━━━━━━━━━━━━⚀︎`
+let menuu = 
+`
+ʏᴏᴜᴛᴜʙᴇ
+https://tinyurl.com/27hhdthq
+ꜰᴀᴄᴇʙᴏᴏᴋ
+https://tinyurl.com/27hhdthq
+ɪɴꜱᴛᴀɢʀᴀᴍ
+https://tinyurl.com/25w7l9b9`
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
@@ -287,13 +288,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             sections: [
               {
                 "rows": [{
-                  "title": ` «👤» صاحب البوت`,
+                  "title": `صاحب البوت`,
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
                   "rowId": `.owner`
-                },{
-                  "title": "«⚠️» معلومات عن البوت",
-                  "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘",
-                  "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
               }, {
