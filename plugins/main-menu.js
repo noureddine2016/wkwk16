@@ -280,56 +280,36 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: '⌜ᴘɪʟɪʜ ᴍᴇɴᴜ⌟',
+            buttonText: ' Menu إضغط هنا لتتعرف على ',
             listType: 1,
-            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            footerText: "كـن في الدنيا كأنـك غـريب أو كـعابر سبيل",
             mtype: 'listMessage',
             sections: [
               {
                 "rows": [{
-                  "title": ` «👤» 𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓`,
+                  "title": ` «👤» صاحب البوت`,
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛 𝙱𝚘𝚝",
                   "rowId": `.owner`
                 },{
-                  "title": "«⚠️» 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎",
+                  "title": "«⚠️» معلومات عن البوت",
                   "description": "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘",
                   "rowId": `${_p}? info`
                 }],
                 "title": "INFORMASI BOT"
               }, {
                 "rows": [{
-                  "title": `⌠ 💬 ⌡ ᴀʟʟ ᴍᴇɴᴜ`,
+                  "title": `⌠ 💬 ⌡ جميع الاوامر`,
                   "description": "𝚂𝚎𝚖𝚞𝚊 𝚖𝚎𝚗𝚞",
                   "rowId": '.? all'
                   }, {
-                  "title": "⌠ 🚦 ⌡ ᴀʙsᴇɴ & ᴠᴏᴛɪɴɢ",
-                  "description": "𝙰𝚋𝚜𝚎𝚗 𝚍𝚊𝚗 𝚅𝚘𝚝𝚒𝚗𝚐 𝙼𝚎𝚗𝚞",
-                  "rowId": `${_p}? absen`
-                }, {
-                  "title": "⌠ 🇯🇵 ⌡ ᴀɴɪᴍᴇ ᴍᴇɴᴜ",
-                  "description": "𝚆𝚒𝚋𝚞 𝚑𝚊𝚕𝚞 𝚖𝚎𝚗𝚞",
-                  "rowId": `${_p}? anime`
-                }, {
-                  "title": "⌠ 🎨 ⌡ sᴛɪᴄᴋᴇʀ & ᴄᴏɴᴠᴇʀᴛᴇʀ",
+                  "title": "⌠ 🎨 ⌡ قسم تحويل الملصقات و الملفات",
                   "description": "𝙼𝚎𝚗𝚞 𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝙲𝚘𝚗𝚟𝚎𝚛𝚝",
                   "rowId": `${_p}? sticker`
                 }, {
-                  "title": "⌠ 🔰 ⌡ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ",
+                  "title": "⌠ 🔰 ⌡ قسم تحميل الملفات من بعض المواقع",
                   "description": "𝙵𝚒𝚝𝚞𝚛 𝚋𝚞𝚊𝚝 𝚗𝚐𝚎-𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍",
                   "rowId": `${_p}? downloader`
-                }, {
-                  "title": "⌠ 📊 ⌡ ᴇxᴘ ᴅᴀɴ ʟɪᴍɪᴛ",
-                  "description": "𝚂𝚎𝚙𝚞𝚝𝚊𝚛 𝙴𝚡𝚙 𝚍𝚊𝚗 𝙻𝚒𝚖𝚒𝚝",
-                  "rowId": `${_p}? xp`
-                }, {
-                  "title": "⌠ 🤺 ⌡ ғᴜɴ ᴍᴇɴᴜ",
-                  "description": " 𝙱𝚞𝚊𝚝 𝚜𝚎𝚛𝚞-𝚜𝚎𝚛𝚞𝚊𝚗",
-                  "rowId": `${_p}? fun`
-                }, {
-                  "title": "⌠ 🎮 ⌡ ɢᴀᴍᴇ ᴍᴇɴᴜ",
-                  "description": "𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚐𝚊𝚖𝚎",
-                  "rowId": `${_p}? game`
-                }, {
+                },{
                   "title": "⌠ 🧰 ⌡  ɢɪᴛʜᴜʙ",
                   "description": "𝙶𝚒𝚝𝚑𝚞𝚋 𝚌𝚛𝚎𝚊𝚝𝚘𝚛",
                   "rowId": `${_p}? github`
@@ -393,10 +373,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "│📃│TEXT MAKER",
                   "description": "Menampilkan Maker Text",
                   "rowId": `${_p}? text`
-                }, {
-                  "title": "│🧼│HENTAI",
-                  "description": "Menampilkan Menu Hentai",
-                  "rowId": `${_p}? nsfw`
                 }, {
                   "title": "│🌚│RANDOM",
                   "description": "Menampilkan Menu Random/Gabut",
